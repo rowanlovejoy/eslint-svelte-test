@@ -29,7 +29,11 @@
 	>
 		<div>
 			{item.title}
-			<button on:click={() => openLink(item)}>Open Link</button>
+			<button
+				on:click={() => {
+					openLink(item);
+				}}>Open Link</button
+			>
 		</div>
 	</CustomList>
 </main>

@@ -1,4 +1,4 @@
-export type ListItem = {
+export interface ListItem {
 	title: string;
 	link: string;
-};
+}
